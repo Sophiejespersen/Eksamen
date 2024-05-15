@@ -1,0 +1,115 @@
+body {
+    background-color: #fffffd; 
+}
+
+/*Min menubar med logo og menupunkter*/
+.container {
+    display: flex; 
+    align-items: center;
+}
+nav a  {
+    padding: 20px; 
+    text-decoration: none;
+    color: black; 
+}
+.menupunkter {
+    display: flex;  
+    justify-content: flex-end; 
+    margin-left: 80px;
+}
+
+.item {
+    font-size: 15px; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.item a:hover {    
+    color: #B80D0D; 
+}
+
+.streg {
+    border-top: 1px solid black; 
+    width: 100%; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+}
+
+/* Mit logo*/
+.logo {
+    margin-right: 800px;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    color: #000000;  
+}
+
+.container2 {
+    flex-direction: column; 
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+
+.rubrik {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D; 
+    font-weight: 50; 
+    margin-top: 20px;  
+    margin-bottom: 0;  
+    text-align: center;
+}
+
+.underrubrik {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px; 
+    color: #3D3A3A;
+    margin-left: 70px;
+    margin-right: 70px; 
+    text-align: center; 
+}
+
+.container3 {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ECE8E4; 
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  button {
+    background-color: #B80D0D;  
+    color: #fffffd;
+    font-size: 12px; 
+    padding: 6px 6px;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-right: 150px; 
+  }
+  
+  button:hover {
+    background-color: #d95353; 
+  }
+
+

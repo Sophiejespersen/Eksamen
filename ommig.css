@@ -1,0 +1,173 @@
+body {
+    background-color: #fffffd; 
+}
+
+/*Min menubar med logo og menupunkter*/
+.container {
+    display: flex; 
+    align-items: center;
+}
+nav a  {
+    padding: 20px; 
+    text-decoration: none;
+    color: #000000;   
+}
+.menupunkter {
+    display: flex;  
+    justify-content: flex-end; 
+    margin-left: 80px; 
+}
+
+.item {
+    font-size: 15px; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+       
+}
+.item a:hover {   
+    color: #B80D0D; 
+}
+
+.streg {
+    border-top: 1px solid black; 
+    width: 100%; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+}
+
+/* Mit logo*/
+.logo {
+    margin-right: 800px;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    color: #000000;  
+}
+/*hvilken størrelsen mine menupunkter er*/
+.item {
+    font-size: 15px; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.streg {
+    border-top: 1px solid black; 
+    width: 100%; 
+    padding-top: 20px; 
+}
+ 
+/*mit billede med tekst ved siden af*/
+.container2 {
+    background-color: #ECE8E4;    
+}
+img {
+    height: 500px; 
+    margin-top: 20px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+}
+.content {
+    display: flex;
+}
+
+.tekst {
+    margin-top: 30px;
+}
+
+/*Hvem er jeg rubrik*/ 
+.rubrik {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D; 
+    font-weight: 50;     
+    padding-top: 50px;
+}
+/*En dedikeret multimediedesigner....*/
+.rubrik2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+    color: #3D3A3A;
+    margin-top: 20px;
+}
+/*Min tekst om mig selv*/ 
+.tekst {
+    margin-left: 70px;
+}
+.brodtekst { 
+    line-height: 1.5;
+    font-size: 15px;
+    margin-right: 120px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #3D3A3A;
+}
+.knap { 
+    background-color: #B80D0D; 
+    color: #fffffd;
+    font-size: 12px; 
+    padding: 6px 6px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-top: 70px;
+}
+/*For at få understregnigen og den farve fra linket væk*/
+.knap a {
+    text-decoration: none;  
+    color: #fffffd; 
+}
+.knap:hover {
+    background-color: #d95353;  
+}
+
+/*Mine kompetencer med et billede af de forskellige adobe logoer*/
+.container3 {
+    flex-direction: column; 
+    text-align: center;
+    margin-top: 50px;   
+}
+.logoer {
+    height: 150px; 
+    margin-bottom: 50px;   
+}
+.kompetencer {
+    font-family: merriweather; 
+    font-size: 50px; 
+    color: #CDA6A1; 
+    font-weight: 50;  
+    margin-bottom: 0; 
+}
+
+.container4 {
+    flex-direction: column; 
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+
+/*Hvad kan jeg tilbyde?*/
+.h2 {
+    font-family: merriweather; 
+    font-size: 50px; 
+    color: #CDA6A1; 
+    font-weight: 50; 
+    text-align: center;
+}
+
+/*de 3 forskellige ting jeg kan tilbyde*/
+.større {
+    font-size: 50px;
+}
+
+.paragraph {
+    font-size: 20px; 
+}
+
+.bold {
+    color: #CDA6A1;
+}
+
+
+
+
+
+
+

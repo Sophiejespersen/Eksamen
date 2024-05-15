@@ -1,0 +1,247 @@
+body {
+    background-color: #fffffd; 
+}
+
+/*Min menubar med logo og menupunkter*/
+.container {
+    display: flex; 
+    align-items: center;
+}
+nav a  {
+    padding: 20px; 
+    text-decoration: none;
+    color: black; 
+}
+.menupunkter {
+    display: flex;  
+    justify-content: flex-end; 
+    margin-left: 80px;
+}
+
+.item {
+    font-size: 15px; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.item a:hover {    
+    color: #B80D0D; 
+}
+
+.streg {
+    border-top: 1px solid black; 
+    width: 100%; 
+    padding-top: 20px;
+    color: #3D3A3A; 
+}
+
+/* Mit logo*/
+.logo {
+    margin-right: 800px;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    color: #000000;  
+}
+
+/* Portraetbillede med tekst ved siden af*/
+.container2 {
+    background-color: #ECE8E4;
+
+}
+.content {
+    display: flex;
+    align-items: center; 
+    padding: 30px
+}
+
+img { 
+    height: 500px;
+    margin-left: auto; 
+}
+
+/*mine 3 forskellige overskrifter ved siden af billedet*/
+
+.tekst {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;   
+}
+
+/* skab med passion, design med formål*/
+.rubrik {
+    font-family: merriweather; 
+    font-size: 80px; 
+    color: #3D3A3A;   
+    margin-top: -50px;   
+    margin-left: 70px; 
+
+}
+/*Sophie Jespersen*/
+.underrubrik {
+    font-family: merriweather; 
+    font-size: 35px; 
+    font-weight: 50; 
+    color: #3D3A3A;  
+   margin-top: -50px;  
+   margin-right: 150px;
+  
+}
+/*Multimediedesigner*/
+.multimedie {
+    font-family: merriweather; 
+    font-size: 20px;
+    color: #3D3A3A; 
+    font-weight: 50;
+    margin-right: 150px;
+    margin-top: -25px;   
+}
+
+.knap { 
+    background-color: #B80D0D;  
+    color: #fffffd;
+    font-size: 12px; 
+    padding: 6px 6px;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-right: 150px; 
+}
+
+/*For at få understregnigen og den farve fra linket væk*/
+.knap a {
+    text-decoration: none;  
+    color: #fffffd; 
+}
+
+.knap:hover {
+    background-color: #d95353; 
+}
+
+.container4 {
+    flex-direction: column; 
+    margin-left: 200px;
+    margin-right: 200px;   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+/*Hvad kan jeg tilbyde?*/
+.h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D; 
+    font-weight: 50;
+    text-align: center;
+    margin-top: 60px;
+}
+/*En bred vifte af tjenester og færdigheder....*/
+.rubrik2 {
+font-family: 'Times New Roman', Times, serif; 
+font-size: 30px; 
+color: #3D3A3A;
+margin-top: 20px;
+text-align: center;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+/*de 3 forskellige ting jeg kan tilbyde*/
+.større {
+    font-size: 30px;
+}
+
+.paragraph {
+    font-size: 15px; 
+}
+
+.bold {
+    color: #000000; 
+}
+
+/*Min footer*/ 
+footer {
+    background-color: #3D3A3A;
+    margin-top: auto;
+    position: absolute;
+    width: 100%; 
+    left: 0; 
+  
+}
+/*Mit indhold i footeren*/ 
+.indhold {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-right: 30px;
+    margin-left: 30px; 
+    color: #fffffd; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+@media screen and (max-width: 600px) {
+    /*Hvordan min menubar ser ud på mobilversion*/
+    .container {
+        flex-wrap: wrap; 
+        text-align: center; 
+    }
+
+    .logo {
+        margin: 0 auto 20px; 
+        margin-top: 10px; 
+    }
+
+    .item {
+        margin: 0 auto; 
+    }
+    .streg {
+        margin-top: 10px; 
+    }
+
+    /*Hvordan mit billedet og tekster ser ud på mobilversion*/
+    .content {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    img {
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: merriweather; 
+    }
+
+    .rubrik {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 35px;   
+        font-weight: 350; 
+
+    }
+
+    .underrubrik {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 25px;  
+        font-weight: 350;
+    }
+
+    .multimedie {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 15px;  
+        font-weight: 350;  
+    }
+
+    .indhold {
+        display: flex; 
+        justify-content: space-between; 
+        margin-right: 0; 
+        margin-left: 0; 
+        font-size: 12px;  
+    }
+
+}
