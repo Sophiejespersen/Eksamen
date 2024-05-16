@@ -51,7 +51,7 @@ nav a  {
 .content {
     display: flex;
     align-items: center; 
-    padding: 30px
+    padding: 120px
 }
 
 img { 
@@ -84,7 +84,7 @@ img {
     font-weight: 50; 
     color: #3D3A3A;  
    margin-top: -50px;  
-   margin-right: 150px;
+   
   
 }
 /*Multimediedesigner*/
@@ -93,7 +93,6 @@ img {
     font-size: 20px;
     color: #3D3A3A; 
     font-weight: 50;
-    margin-right: 150px;
     margin-top: -25px;   
 }
 
@@ -101,11 +100,10 @@ img {
     background-color: #B80D0D;  
     color: #fffffd;
     font-size: 12px; 
-    padding: 6px 6px;
+    padding: 8px 13px;
     border: none;
     border-radius: 8px; 
     cursor: pointer; 
-    margin-right: 150px; 
 }
 
 /*For at få understregnigen og den farve fra linket væk*/
