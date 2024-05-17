@@ -12,7 +12,7 @@ nav a  {
     text-decoration: none;
     color: black; 
 }
-.menupunkter {
+.menubar {
     display: flex;  
     justify-content: flex-end; 
     margin-left: 80px;
@@ -28,7 +28,7 @@ nav a  {
     color: #B80D0D; 
 }
 
-.streg {
+.line { 
     border-top: 1px solid black; 
     width: 100%; 
     padding-top: 20px;
@@ -61,7 +61,7 @@ img {
 
 /*mine 3 forskellige overskrifter ved siden af billedet*/
 
-.tekst {
+.text {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -69,7 +69,7 @@ img {
 }
 
 /* skab med passion, design med formål*/
-.rubrik {
+.headline {
     font-family: merriweather; 
     font-size: 80px; 
     color: #3D3A3A;   
@@ -78,7 +78,7 @@ img {
 
 }
 /*Sophie Jespersen*/
-.underrubrik {
+.underheadline { 
     font-family: merriweather; 
     font-size: 35px; 
     font-weight: 50; 
@@ -88,7 +88,7 @@ img {
   
 }
 /*Multimediedesigner*/
-.multimedie {
+.multimedia {
     font-family: merriweather; 
     font-size: 20px;
     color: #3D3A3A; 
@@ -96,7 +96,7 @@ img {
     margin-top: -25px;   
 }
 
-.knap { 
+.button { 
     background-color: #B80D0D;  
     color: #fffffd;
     font-size: 12px; 
@@ -107,12 +107,12 @@ img {
 }
 
 /*For at få understregnigen og den farve fra linket væk*/
-.knap a {
+.button a {
     text-decoration: none;  
     color: #fffffd; 
 }
 
-.knap:hover {
+.button:hover { 
     background-color: #d95353; 
 }
 
@@ -134,7 +134,7 @@ img {
     margin-top: 60px;
 }
 /*En bred vifte af tjenester og færdigheder....*/
-.rubrik2 {
+.headline2 {
 font-family: 'Times New Roman', Times, serif; 
 font-size: 30px; 
 color: #3D3A3A;
@@ -144,8 +144,20 @@ margin-left: 70px;
 margin-right: 70px;
 }
 
+.text2 {
+    display: flex; 
+    line-height: 1.5; 
+}
+
+.paragraph2 {
+    margin-left: 50px;
+}
+
+.paragraph3 {
+    margin-left: 50px;
+}
 /*de 3 forskellige ting jeg kan tilbyde*/
-.større {
+.big {
     font-size: 30px;
 }
 
@@ -154,7 +166,7 @@ margin-right: 70px;
 }
 
 .bold {
-    color: #000000; 
+    color: #B80D0D; 
 }
 
 /*Min footer*/ 
@@ -167,7 +179,7 @@ footer {
   
 }
 /*Mit indhold i footeren*/ 
-.indhold {
+.content2 {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
@@ -194,7 +206,7 @@ footer {
     .item {
         margin: 0 auto; 
     }
-    .streg {
+    .line {
         margin-top: 10px; 
     }
 
@@ -211,7 +223,7 @@ footer {
         font-family: merriweather; 
     }
 
-    .rubrik {
+    .headline {
         text-align: center;
         margin: 0 auto;
         margin-top: 30px;
@@ -220,21 +232,21 @@ footer {
 
     }
 
-    .underrubrik {
+    .underheadline {
         text-align: center;
         margin: 0 auto;
         font-size: 25px;  
         font-weight: 350;
     }
 
-    .multimedie {
+    .multimedia {
         text-align: center;
         margin: 0 auto;
         font-size: 15px;  
         font-weight: 350;  
     }
 
-    .indhold {
+    .content2 { 
         display: flex; 
         justify-content: space-between; 
         margin-right: 0; 

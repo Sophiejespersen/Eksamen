@@ -12,7 +12,7 @@ nav a  {
     text-decoration: none;
     color: #000000;   
 }
-.menupunkter {
+.menubar {
     display: flex;  
     justify-content: flex-end; 
     margin-left: 80px; 
@@ -28,7 +28,7 @@ nav a  {
     color: #B80D0D; 
 }
 
-.streg {
+.line { 
     border-top: 1px solid black; 
     width: 100%; 
     padding-top: 20px;
@@ -50,10 +50,6 @@ nav a  {
     font-family: Arial, Helvetica, sans-serif;  
 }
 
-.streg {
-    border-top: 1px solid black; 
-    width: 100%; 
-}
  
 /*mit billede med tekst ved siden af*/
 .container2 {
@@ -69,12 +65,12 @@ img {
     display: flex;
 }
 
-.tekst {
+.text { 
     margin-top: 30px;
 }
 
 /*Hvem er jeg rubrik*/ 
-.rubrik {
+.headline {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px; 
     color: #B80D0D; 
@@ -82,39 +78,38 @@ img {
     padding-top: 50px;
 }
 /*En dedikeret multimediedesigner....*/
-.rubrik2 {
+.headline2 { 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px; 
     color: #3D3A3A;
     margin-top: 20px;
 }
 /*Min tekst om mig selv*/ 
-.tekst {
+.text { 
     margin-left: 70px;
 }
-.brodtekst { 
+.bodytext { 
     line-height: 1.5;
     font-size: 15px;
     margin-right: 120px; 
     font-family: Arial, Helvetica, sans-serif; 
     color: #3D3A3A;
 }
-.knap { 
-    background-color: #B80D0D; 
+.button { 
+    background-color: #B80D0D;  
     color: #fffffd;
     font-size: 12px; 
-    padding: 6px 6px; 
+    padding: 8px 13px;
     border: none;
     border-radius: 8px; 
     cursor: pointer; 
-    margin-top: 70px;
 }
 /*For at få understregnigen og den farve fra linket væk*/
-.knap a {
+.button a {
     text-decoration: none;  
     color: #fffffd; 
 }
-.knap:hover {
+.button:hover { 
     background-color: #d95353;  
 }
 
@@ -123,45 +118,6 @@ img {
     flex-direction: column; 
     text-align: center;
     margin-top: 50px;   
-}
-.logoer {
-    height: 150px; 
-    margin-bottom: 50px;   
-}
-.kompetencer {
-    font-family: merriweather; 
-    font-size: 50px; 
-    color: #CDA6A1; 
-    font-weight: 50;  
-    margin-bottom: 0; 
-}
-
-.container4 {
-    flex-direction: column; 
-    margin-left: 100px;
-    margin-right: 100px;   
-}
-
-/*Hvad kan jeg tilbyde?*/
-.h2 {
-    font-family: merriweather; 
-    font-size: 50px; 
-    color: #CDA6A1; 
-    font-weight: 50; 
-    text-align: center;
-}
-
-/*de 3 forskellige ting jeg kan tilbyde*/
-.større {
-    font-size: 50px;
-}
-
-.paragraph {
-    font-size: 20px; 
-}
-
-.bold {
-    color: #CDA6A1;
 }
 
 
