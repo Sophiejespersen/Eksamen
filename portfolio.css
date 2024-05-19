@@ -1,5 +1,7 @@
 body {
     background-color: #fffffd; 
+    margin: 0;
+    padding: 0;
 }
 
 /*Min menubar med logo og menupunkter*/
@@ -10,9 +12,9 @@ body {
 nav a  {
     padding: 20px; 
     text-decoration: none;
-    color: #000000;   
+    color: black; 
 }
-.menupunkter {
+.menubar {
     display: flex;  
     justify-content: flex-end; 
     margin-left: 80px; 
@@ -20,48 +22,36 @@ nav a  {
 
 .item {
     font-size: 15px; 
-    padding-top: 20px;
+    padding-top: 40px;
     color: #3D3A3A; 
-       
+    font-family: Arial, Helvetica, sans-serif; 
 }
-.item a:hover {   
+.item a:hover {    
     color: #B80D0D; 
 }
 
-.streg {
+.line { 
     border-top: 1px solid black; 
     width: 100%; 
-    padding-top: 20px;
+    padding-top: 22px;
     color: #3D3A3A; 
 }
 
 /* Mit logo*/
 .logo {
-    margin-right: 800px;  
+    margin-right: 820px;  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px; 
     color: #000000;  
-}
-/*hvilken størrelsen mine menupunkter er*/
-.item {
-    font-size: 15px; 
-    padding-top: 20px;
-    color: #3D3A3A; 
-    font-family: Arial, Helvetica, sans-serif;  
-}
-
-.streg {
-    border-top: 1px solid black; 
-    width: 100%; 
-}
-
+    padding-top: 20px; 
+} 
 .container2 {
     flex-direction: column; 
     margin-left: 200px;
     margin-right: 200px; 
 }
 
-.rubrik {
+.headline {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px; 
     color: #B80D0D; 
@@ -71,7 +61,7 @@ nav a  {
     text-align: center;
 }
 
-.underrubrik {
+.underheadline { 
     font-family: 'Times New Roman', Times, serif; 
     font-size: 30px; 
     color: #3D3A3A;
@@ -79,3 +69,4 @@ nav a  {
     margin-right: 70px; 
     text-align: center; 
 }
+

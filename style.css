@@ -139,7 +139,7 @@ img {
 }
 /*En bred vifte af tjenester og færdigheder....*/
 .headline2 {
-font-family: 'Times New Roman', Times, serif; 
+font-family: Arial, Helvetica, sans-serif; 
 font-size: 30px; 
 color: #3D3A3A;
 margin-top: 20px;
@@ -150,76 +150,51 @@ margin-right: 70px;
 
 .text2 {
     display: flex; 
+    justify-content: center;
+    gap: 50px;
     line-height: 1.5; 
 }
 
-.paragraph2 {
-    margin-left: 50px;
-}
-
-.paragraph3 {
-    margin-left: 50px;
-}
 /*de 3 forskellige ting jeg kan tilbyde*/
 .big {
     font-size: 30px;
 }
 
-.paragraph {
-    font-size: 15px; 
-}
 
 .bold {
     color: #B80D0D; 
-}
-
-.facebook-link img { 
-    height: 50px;  
-}
-.insta-link img { 
-    height: 50px;   
 }
 
 .footer {
     background-color: #3D3A3A; 
     color: #fffffd; 
     width: 100%; 
-    margin: 0;
-
 }
 
-.container4 {
-    display: flex;  
-    justify-content: center; 
-    justify-content:space-around;
-    font-family: Arial, Helvetica, sans-serif; 
-    text-align: center; 
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 300px;     
 }
 
-.links a {
-    text-decoration: none;
-    color: #fffffd;  
-}
 
-.h5 {
-    font-size: 25px;
-}
 
-.item2 a:hover {    
-    color: #B80D0D; 
-}
 
-.item2 {
-    margin-bottom: 13px;
-}
 
-.bottom-bar {
-    background-color: #cec7bf; 
+
+
+
+
+.footer {
+    background-color: #3D3A3A; 
     width: 100%; 
-    color: #3D3A3A; 
+    color: #fffffd; 
     padding: 5px 5px; 
     text-align: center; 
 }
+
+
 
 
 
