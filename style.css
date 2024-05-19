@@ -41,6 +41,7 @@ nav a  {
 .logo {
     margin-right: 820px;  
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 25px; 
     color: #000000;  
     padding-top: 20px; 
@@ -53,6 +54,7 @@ nav a  {
 }
 .content {
     display: flex;
+    flex-direction: row; 
     align-items: center; 
     padding: 120px
 }
@@ -60,7 +62,7 @@ nav a  {
 img { 
     height: 500px;  
     margin-left: 0;  
-    margin-bottom: 100px;
+    margin-bottom: 200px; 
 }
 
 /*mine 3 forskellige overskrifter ved siden af billedet*/
@@ -111,7 +113,7 @@ img {
 }
 
 /*For at få understregnigen og den farve fra linket væk*/
-.button a {
+.button {
     text-decoration: none;  
     color: #fffffd; 
 }
@@ -129,7 +131,7 @@ img {
 }
 
 /*Hvad kan jeg tilbyde?*/
-.h2 {
+.h4 {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px; 
     color: #B80D0D; 
@@ -138,7 +140,7 @@ img {
     margin-top: 60px;
 }
 /*En bred vifte af tjenester og færdigheder....*/
-.headline2 {
+.underheadline2 {
 font-family: Arial, Helvetica, sans-serif; 
 font-size: 30px; 
 color: #3D3A3A;
@@ -165,12 +167,6 @@ margin-right: 70px;
     color: #B80D0D; 
 }
 
-.footer {
-    background-color: #3D3A3A; 
-    color: #fffffd; 
-    width: 100%; 
-}
-
 
 .footer-content {
     display: flex;
@@ -178,38 +174,64 @@ margin-right: 70px;
     gap: 300px;     
 }
 
-
-
-
-
-
-
-
-
 .footer {
     background-color: #3D3A3A; 
-    width: 100%; 
     color: #fffffd; 
-    padding: 5px 5px; 
-    text-align: center; 
+    text-align: center;
+ 
+}
+@media only screen and (min-width: 767px) and (max-width: 1500px) { 
+   .logo {
+    margin-right: 150px;
+   }
+
+   .container2 {
+    height: 950px;
+   }
+
+   .content {
+    display: flex;
+    flex-direction: column-reverse;    
+}
+
+.text {
+    margin-top: -200px;
+}
+.headline {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 0; 
+}
+
+.underheadline {
+    margin-top: 5px;
+}
+
+.underheadline2 {
+    width: 100%;
+    margin-left: -10px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.footer-content {
+    gap: 30px;
+}
+
 }
 
 
 
+@media screen and (max-width: 767px) {  
 
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
     /*Hvordan min menubar ser ud på mobilversion*/
     .container {
-        flex-wrap: wrap; 
-        text-align: center; 
+        width: 100%; 
+        flex-wrap: wrap;  
     }
 
     .logo {
@@ -217,55 +239,88 @@ margin-right: 70px;
         margin-top: 10px; 
     }
 
+    /*mine menupunkter*/
     .item {
         margin: 0 auto; 
+        text-align: center;
     }
     .line {
         margin-top: 10px; 
     }
 
-    /*Hvordan mit billedet og tekster ser ud på mobilversion*/
-    .content {
-        flex-direction: column;
-        flex-direction: column-reverse;
+    /*Hvor lang min beige kasse er*/
+    .container2 {
+        height: 650px; 
     }
 
+    .content {
+        display: flex;
+        flex-direction: column-reverse;    
+    }
+
+    /*Mit billede*/
     img {
         height: 300px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-family: merriweather; 
+        text-align: center; 
+        margin-top: -50px;
     }
 
+    .text {
+        margin-top: -200px;
+        text-align: center;
+    }
+    /*Skab med passion, design med formål*/
     .headline {
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 30px;
-        font-size: 35px;   
-        font-weight: 350; 
-
+        font-size: 30px; 
+        width: 100%; 
+        margin-right: 60px;
     }
 
+    /*Sophie Jespersen*/
     .underheadline {
-        text-align: center;
-        margin: 0 auto;
-        font-size: 25px;  
-        font-weight: 350;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 0; 
     }
 
+    /*Multimediedesigner*/
     .multimedia {
-        text-align: center;
-        margin: 0 auto;
-        font-size: 15px;  
-        font-weight: 350;  
+        font-size: 13px;
+        margin-top: 5px;
     }
 
-    .content2 { 
-        display: flex; 
-        justify-content: space-between; 
-        margin-right: 0; 
-        margin-left: 0; 
-        font-size: 12px;  
+    .container3 {
+        width: 100%; 
     }
+
+    /*Hvad kan jeg tilbyde?*/
+    h4 {
+        font-size: 10px;
+        margin-left: -400px;
+    }
+
+    /*en bred vifte...*/
+    .underheadline2 {
+        font-size: 20px;
+        margin-left: -200px;
+        margin-right: 200px;
+
+    }
+
+    /*Mine 3 forskellige tekster*/
+    .text2 {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        margin-left: -190px;
+        margin-right: 250px ;
+    }
+
+    .footer-content {
+        gap: 30px;
+        font-size: 12px;
+    }
+
+    
 
 }
