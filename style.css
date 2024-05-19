@@ -34,6 +34,7 @@ nav a  {
     border-top: 1px solid black; 
     width: 100%; 
     padding-top: 22px;
+    margin-top: 10px;
     color: #3D3A3A; 
 }
 
@@ -175,10 +176,12 @@ margin-right: 70px;
 }
 
 .footer {
+    width: 100%;
     background-color: #3D3A3A; 
     color: #fffffd; 
     text-align: center;
- 
+    position: fixed;
+    position: absolute;
 }
 @media only screen and (min-width: 767px) and (max-width: 1500px) { 
    .logo {

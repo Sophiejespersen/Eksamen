@@ -1,5 +1,7 @@
 body {
     background-color: #fffffd; 
+    margin: 0;
+    padding: 0;
 }
 
 /*Min menubar med logo og menupunkter*/
@@ -10,7 +12,7 @@ body {
 nav a  {
     padding: 20px; 
     text-decoration: none;
-    color: #000000;   
+    color: black; 
 }
 .menubar {
     display: flex;  
@@ -20,40 +22,36 @@ nav a  {
 
 .item {
     font-size: 15px; 
-    padding-top: 20px;
+    padding-top: 40px;
     color: #3D3A3A; 
-       
+    font-family: Arial, Helvetica, sans-serif; 
 }
-.item a:hover {   
+.item a:hover {    
     color: #B80D0D; 
 }
 
 .line { 
     border-top: 1px solid black; 
     width: 100%; 
-    padding-top: 20px;
+    padding-top: 22px;
+    margin-top: 10px; 
     color: #3D3A3A; 
 }
 
 /* Mit logo*/
 .logo {
-    margin-right: 800px;  
+    margin-right: 820px;  
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 25px; 
     color: #000000;  
-}
-/*hvilken størrelsen mine menupunkter er*/
-.item {
-    font-size: 15px; 
-    padding-top: 20px;
-    color: #3D3A3A; 
-    font-family: Arial, Helvetica, sans-serif;  
-}
+    padding-top: 20px; 
+} 
 
- 
 /*mit billede med tekst ved siden af*/
 .container2 {
-    background-color: #ECE8E4;    
+    background-color: #ECE8E4;   
+    height: 520px; 
 }
 img {
     height: 500px; 
@@ -66,7 +64,7 @@ img {
 }
 
 .text { 
-    margin-top: 30px;
+    margin-top: 10px; 
 }
 
 /*Hvem er jeg rubrik*/ 
@@ -91,7 +89,7 @@ img {
 .bodytext { 
     line-height: 1.5;
     font-size: 15px;
-    margin-right: 120px; 
+    margin-right: 300px; 
     font-family: Arial, Helvetica, sans-serif; 
     color: #3D3A3A;
 }
