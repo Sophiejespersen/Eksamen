@@ -2,30 +2,28 @@ body {
     background-color: #fffffd; 
     margin: 0;
     padding: 0;
-       
 }
 
 /*Min menubar med logo og menupunkter*/
 .container {
     display: flex; 
     align-items: center;
+    justify-content: space-between; 
 }
 nav a  {
     padding: 20px; 
     text-decoration: none;
     color: black; 
 }
-.menubar { 
+.menubar {
     display: flex;  
-    justify-content: flex-end; 
-    margin-left: 80px;
 }
 
 .item {
     font-size: 15px; 
-    padding-top: 20px;
+    padding-top: 40px;
     color: #3D3A3A; 
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif; 
 }
 .item a:hover {    
     color: #B80D0D; 
@@ -34,17 +32,19 @@ nav a  {
 .line { 
     border-top: 1px solid black; 
     width: 100%; 
-    padding-top: 20px;
+    padding-top: 22px;
+    margin-top: 10px;
     color: #3D3A3A; 
 }
 
 /* Mit logo*/
 .logo {
-    margin-right: 800px;  
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 25px; 
     color: #000000;  
-}
+    padding-top: 20px; 
+} 
 
 .container2 {
     flex-direction: column; 
@@ -63,7 +63,7 @@ nav a  {
 }
 
 .headline2 {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 30px; 
     color: #3D3A3A;
     margin-left: 70px;
@@ -71,20 +71,29 @@ nav a  {
     text-align: center; 
 }
 
+.contact-information {
+    display: flex;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    gap: 40px;
+}
+
 .container3 {
+    display: flex;
     width: 50%;
-    margin: 0 auto;
+   
   }
   
   form {
-    margin-top: 20px;
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 260px;
   }
   
   label,
   input,
   textarea,
   button {
-    display: block;
     margin-bottom: 10px;
   }
 
@@ -92,12 +101,12 @@ nav a  {
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%;
+    width: 600px; 
     padding: 10px;
     border: 1px solid #000000;
     border-radius: 5px;
     background-color: #ECE8E4; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: Arial, Helvetica, sans-serif; 
   }
   
   button {
@@ -113,6 +122,14 @@ nav a  {
   
   button:hover {
     background-color: #d95353; 
+  }
+
+  .portrait3 {
+    flex: 1;
+    height: 400px;
+    margin-left: 100px;
+   
+
   }
 
   .footer-content {

@@ -8,6 +8,7 @@ body {
 .container {
     display: flex; 
     align-items: center;
+    justify-content: space-between; 
 }
 nav a  {
     padding: 20px; 
@@ -16,8 +17,6 @@ nav a  {
 }
 .menubar {
     display: flex;  
-    justify-content: flex-end; 
-    margin-left: 80px; 
 }
 
 .item {
@@ -34,13 +33,12 @@ nav a  {
     border-top: 1px solid black; 
     width: 100%; 
     padding-top: 22px;
-    margin-top: 10px; 
+    margin-top: 10px;
     color: #3D3A3A; 
 }
 
 /* Mit logo*/
 .logo {
-    margin-right: 820px;  
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25px; 
