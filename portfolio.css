@@ -1,3 +1,4 @@
+
 body {
     background-color: #fffffd; 
     margin: 0;
@@ -34,6 +35,7 @@ nav a  {
     border-top: 1px solid black; 
     width: 100%; 
     padding-top: 22px;
+    margin-top: 10px;
     color: #3D3A3A; 
 }
 
@@ -41,17 +43,19 @@ nav a  {
 .logo {
     margin-right: 820px;  
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 25px; 
     color: #000000;  
     padding-top: 20px; 
 } 
-.container2 {
+.containertext {
     flex-direction: column; 
     margin-left: 200px;
     margin-right: 200px; 
 }
 
-.headline {
+/*Mit portfolio*/
+.portfolioheadline {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px; 
     color: #B80D0D; 
@@ -60,7 +64,7 @@ nav a  {
     margin-bottom: 0;  
     text-align: center;
 }
-
+/*Nedenfor kan du se....*/
 .underheadline { 
     font-family: 'Times New Roman', Times, serif; 
     font-size: 30px; 
@@ -69,4 +73,295 @@ nav a  {
     margin-right: 70px; 
     text-align: center; 
 }
+
+.picture123 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container1 {
+    background-color: #ECE8E4; 
+    height: 400px;
+    width: 400px;
+}
+
+.container1 img {
+    height: 250px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.headline1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D; 
+    font-weight: 50;
+    margin-top: 93px; 
+}
+
+.container2 {
+    background-color: #ECE8E4; 
+    height: 400px;
+    width: 400px;
+}
+
+.container2 img {
+    height: 400px;
+    text-align: center;
+}
+
+.headline2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D; 
+    font-weight: 50;
+}
+
+.container3 {
+    background-color: #ECE8E4; 
+    height: 400px;
+    width: 400px;
+}
+
+.container3 img {
+    height: 280px;
+    margin-left: 5px;
+    margin-top: 60px;
+}
+
+.headline3 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D; 
+    font-weight: 50;
+    margin-top: 75px;
+}
+
+.picture456 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.container4 {
+    background-color: #ECE8E4; 
+    height: 400px;
+    width: 400px;
+}
+
+.container4 img {
+    height: 400px;
+    margin-left: 20px;
+}
+
+.headline4 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D;
+    font-weight: 50;
+}
+
+.container5 {
+    background-color: #ECE8E4; 
+    height: 400px;
+    width: 400px;
+}
+
+.video {
+    height: 400px;
+    width: 400px;   
+}
+
+.headline5 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D;
+    font-weight: 50;
+}
+
+
+.container6 {
+    background-color: #ECE8E4; 
+    height: 400px;
+    width: 400px;
+}
+
+.container6 img {
+    height: 250px;
+    margin-top: 80px;
+}
+
+.headline6 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #B80D0D;
+    font-weight: 50;
+    margin-top: 85px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 300px;     
+}
+
+.footer {
+    width: 100%;
+    background-color: #3D3A3A; 
+    color: #fffffd; 
+    text-align: center;
+    margin-top: 200px;
+    position: fixed;
+    position: absolute;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+    .logo {
+        margin-right: 100px;
+    }
+
+    .picture123 {
+        flex-wrap: wrap; 
+    }
+
+    .container1 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .container1 img {
+        height: 190px;
+    }
+
+    .headline1 {
+        margin-top: 55px;
+    }
+
+    .container2 {
+        height: 300px;
+        width: 300px; 
+    }
+
+    .container2 img {
+        height: 300px;
+    }
+
+    .container3 {
+        height: 300px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .container3 img {
+        height: 210px;
+    }
+
+    .picture456 {
+        flex-wrap: wrap; 
+        margin-top: 200px;   
+    }
+
+    .container4 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .container4 img {
+        height: 300px;
+    }
+
+    .container5 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .video {
+        height: 300px;
+        width: 300px; 
+    }
+
+    .container6 {
+        height: 300px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .container6 img {
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    .footer-content {
+        gap: 30px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {  
+
+    /*Hvordan min menubar ser ud på mobilversion*/
+    .container {
+        width: 100%; 
+        flex-wrap: wrap;  
+    }
+
+    .logo {
+        margin: 0 auto 20px; 
+        margin-top: 10px; 
+    }
+
+    /*mine menupunkter*/
+    .item {
+        text-align: center;
+    }
+    .line {
+        margin-top: 10px; 
+    }
+
+    .containertext {
+        width: 100%; 
+        margin-left: 0;
+    }
+
+    .underheadline {
+        font-size: 20px; 
+    }
+
+    .picture123 {
+        display: flex;
+        flex-direction: column; 
+        gap: 120px;
+    }
+
+    .picture456 {
+        display: flex;
+        flex-direction: column; 
+        gap: 120px;
+    }
+
+    .footer-content {
+        gap: 30px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+}
+
 

@@ -244,8 +244,8 @@ margin-right: 70px;
 
     /*mine menupunkter*/
     .item {
-        margin: 0 auto; 
         text-align: center;
+        margin-left: 40px;
     }
     .line {
         margin-top: 10px; 
