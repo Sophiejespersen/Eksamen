@@ -61,7 +61,7 @@ nav a  {
 img { 
     height: 500px;  
     margin-left: 0;  
-    margin-bottom: 200px; 
+    margin-bottom: 400px; 
 }
 
 /*mine 3 forskellige overskrifter ved siden af billedet*/
@@ -71,13 +71,13 @@ img {
    flex-direction: column;
    align-items: center;
    justify-content: center;   
-   margin-bottom: 300px;
+   margin-bottom: 500px;
 }
 
 /* skab med passion, design med formål*/
 .headline {
     font-family: merriweather; 
-    font-size: 75px;  
+    font-size: 70px;  
     color: #3D3A3A;      
     margin-left: 70px; 
 
@@ -89,7 +89,7 @@ img {
     font-weight: 50; 
     color: #3D3A3A;  
    margin-top: -50px; 
-   margin-right: 50px; 
+   margin-left: 40px;
    
   
 }
@@ -100,7 +100,7 @@ img {
     color: #3D3A3A; 
     font-weight: 50;
     margin-top: -25px; 
-    margin-right: 50px;  
+    margin-left: 40px; 
 }
 
 .button { 
@@ -111,7 +111,7 @@ img {
     border: none;
     border-radius: 8px; 
     cursor: pointer; 
-    margin-right: 50px;
+    margin-left: 40px;
 }
 
 /*For at få understregnigen og den farve fra linket væk*/
@@ -199,12 +199,13 @@ margin-right: 70px;
 }
 
 .text {
-    margin-top: -200px;
+    margin-top: -400px;
 }
 .headline {
     width: 100%;
     font-size: 50px;
     margin-bottom: 0; 
+    text-align: center;
 }
 
 .underheadline {
@@ -245,7 +246,9 @@ margin-right: 70px;
 
     /*mine menupunkter*/
     .item {
-        text-align: center;
+        margin-left: 30px;
+
+
     }
     .line {
         margin-top: 10px; 
@@ -269,8 +272,8 @@ margin-right: 70px;
     }
 
     .text {
-        margin-top: -200px;
         text-align: center;
+        margin-top: -400px;
     }
     /*Skab med passion, design med formål*/
     .headline {
@@ -298,7 +301,7 @@ margin-right: 70px;
 
     /*Hvad kan jeg tilbyde?*/
     h4 {
-        font-size: 10px;
+        font-size: 8px;
         margin-left: -400px;
     }
 
@@ -320,7 +323,7 @@ margin-right: 70px;
     }
 
     .footer-content {
-        gap: 30px;
+        gap: 20px;
         font-size: 12px;
     }
 
