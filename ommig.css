@@ -212,9 +212,12 @@ img {
         font-size: 12px;
     }
 
+    .footer-content {
+        gap: 140px;
+    }
+
     
 }
-
 
 
 

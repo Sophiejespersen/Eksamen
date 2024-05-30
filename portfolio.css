@@ -70,7 +70,7 @@ nav a  {
     margin-right: 70px; 
     text-align: center; 
 }
-
+/* de første 3 billeder på min portfolio*/
 .picture123 {
     display: flex;
     justify-content: center;
@@ -134,7 +134,7 @@ nav a  {
     font-weight: 50;
     margin-top: 75px;
 }
-
+/*de 3 andre billeder på min portfolio*/
 .picture456 {
     display: flex;
     justify-content: center;
@@ -223,10 +223,6 @@ nav a  {
         margin-right: 100px;
     }
 
-    .picture123 {
-        flex-wrap: wrap; 
-    }
-
     .container1 {
         height: 300px;
         width: 300px;
@@ -252,17 +248,12 @@ nav a  {
     .container3 {
         height: 300px;
         width: 300px;
-        margin-top: 150px;
     }
 
     .container3 img {
         height: 210px;
     }
-
-    .picture456 {
-        flex-wrap: wrap; 
-        margin-top: 200px;   
-    }
+        
 
     .container4 {
         height: 300px;
@@ -286,7 +277,6 @@ nav a  {
     .container6 {
         height: 300px;
         width: 300px;
-        margin-top: 150px;
     }
 
     .container6 img {
@@ -295,15 +285,10 @@ nav a  {
     }
 
     .footer-content {
-        gap: 30px;
+        gap: 140px;
     }
+
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 767px) {  
 
@@ -353,13 +338,6 @@ nav a  {
         gap: 20px;
         font-size: 12px;
     }
-
-
-
-
-
-
-
 
 
 }
